@@ -26,7 +26,7 @@ struct ContentView: View {
             .navigationTitle("Birthdays")
             .safeAreaInset(edge:.bottom) {
                 VStack {
-                    Text("New Birthday")
+                    Text("NEW BIRTHDAY🎂")
                         .font(.headline)
                     DatePicker(selection: $newBirthday,in: Date.distantPast...Date.now, displayedComponents: .date) {
                         TextField("Name", text: $newName)
